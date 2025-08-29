@@ -1,0 +1,64 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color-scheme: dark;
+  --bg-glass: rgba(255,255,255,0.08);
+}
+
+body {
+  margin: 0;
+  background: #121212;
+  color: #eee;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+input, select {
+  background: var(--bg-glass);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: .5rem;
+  color: #fff;
+  border-radius: .25rem;
+  margin-right: .5rem;
+}
+
+.dtc-card {
+  background: var(--bg-glass);
+  border-radius: .5rem;
+  padding: 1rem;
+  margin: .5rem;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+}
+
+.severity-1 { border-left: 4px solid #4caf50; }
+.severity-2 { border-left: 4px solid #ff9800; }
+.severity-3 { border-left: 4px solid #f44336; }
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: .5rem;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+button {
+  background: var(--bg-glass);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: .5rem 1rem;
+  color: #fff;
+  border-radius: .25rem;
+}

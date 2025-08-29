@@ -1,0 +1,28 @@
+[
+  {
+    "dtc": "C0490-01",
+    "title": "Steering Position Sensor Circuit",
+    "system": "CIM",
+    "severity": 2,
+    "model_code": ["9400", "1998"],
+    "criteria_activation": "When steering angle invalid.",
+    "fault_criteria": "Signal implausible.",
+    "system_reaction": "Warning light on.",
+    "harness_checks": "Check sensor wiring.",
+    "diag_help": "Use Tech2 to read sensor values.",
+    "oem_procedure_url": "https://z90.pl/saab/dtc/read.php?model=9400&doc=idb22745"
+  },
+  {
+    "dtc": "P0300",
+    "title": "Random/Multiple Cylinder Misfire",
+    "system": "ECM",
+    "severity": 3,
+    "model_code": ["9300", "2003"],
+    "criteria_activation": "Misfire detected.",
+    "fault_criteria": "Multiple misfires in 200 cycles.",
+    "system_reaction": "MIL on.",
+    "harness_checks": "Inspect ignition coils.",
+    "diag_help": "Check spark plugs.",
+    "oem_procedure_url": "https://example.com/P0300"
+  }
+]
